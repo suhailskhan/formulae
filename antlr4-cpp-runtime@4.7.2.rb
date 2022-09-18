@@ -1,4 +1,4 @@
-class Antlr4CppRuntimeAT471 < Formula
+class Antlr4CppRuntimeAT472 < Formula
   desc "ANother Tool for Language Recognition C++ Runtime Library"
   homepage "https://www.antlr.org/"
   url "https://www.antlr.org/download/antlr-4.7.2-complete.jar"
