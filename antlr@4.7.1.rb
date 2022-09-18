@@ -1,4 +1,4 @@
-class Antlr < Formula
+class AntlrAT471 < Formula
   desc "ANother Tool for Language Recognition"
   homepage "https://www.antlr.org/"
   url "http://www.antlr.org/download/antlr-4.7.1-complete.jar"
