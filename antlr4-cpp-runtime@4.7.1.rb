@@ -36,6 +36,7 @@ class Antlr4CppRuntimeAT471 < Formula
       }
     EOS
     system ENV.cxx, "-std=c++11", "-I#{include}/antlr4-runtime", "test.cc",
+                        "-L#{lib}", "-lantlr4-runtime", "-o", "test"
     system "./test"
   end
 end
