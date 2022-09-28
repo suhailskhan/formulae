@@ -20,12 +20,12 @@ class AntlrAT472 < Formula
 
     (bin/"antlr").write <<~EOS
       #!/bin/bash
-      CLASSPATH="#{prefix}/antlr-#{version}-complete.jar:." exec "#{Formula["openjdk"].opt_bin}/java" -jar #{prefix}/antlr-#{version}-complete.jar "$@"
+      CLASSPATH="#{prefix}/antlr-#{version}-complete.jar:." exec "#{Formula["openjdk@17"].opt_bin}/java" -jar #{prefix}/antlr-#{version}-complete.jar "$@"
     EOS
 
     (bin/"grun").write <<~EOS
       #!/bin/bash
-      exec "#{Formula["openjdk"].opt_bin}/java" -classpath #{prefix}/antlr-#{version}-complete.jar:. org.antlr.v4.gui.TestRig "$@"
+      exec "#{Formula["openjdk@17"].opt_bin}/java" -classpath #{prefix}/antlr-#{version}-complete.jar:. org.antlr.v4.gui.TestRig "$@"
     EOS
   end
 
