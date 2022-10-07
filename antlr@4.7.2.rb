@@ -9,10 +9,6 @@ class AntlrAT472 < Formula
     regex(/href=.*?antlr[._-]v?(\d+(?:\.\d+)+)-complete\.jar/i)
   end
 
-#   bottle do
-#     sha256 cellar: :any_skip_relocation, all: "9e5d18110040bd130207bfa3daab67bf83f66042e3feed715676c5e7b4adee18"
-#   end
-
   depends_on "openjdk@17"
 
   def install
