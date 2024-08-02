@@ -1,4 +1,4 @@
-class Lima < Formula
+class LimaAT10Alpha < Formula
     desc "Linux virtual machines"
     homepage "https://lima-vm.io/"
     url "https://github.com/suhailskhan/lima/archive/refs/tags/v1.0-alpha.tar.gz"
