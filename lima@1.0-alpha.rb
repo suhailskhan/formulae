@@ -2,7 +2,7 @@ class LimaAT10Alpha < Formula
     desc "Linux virtual machines"
     homepage "https://lima-vm.io/"
     url "https://github.com/suhailskhan/lima/archive/refs/tags/v1.0-alpha.tar.gz"
-    sha256 "6a6542688db20d61bb4c5b8783467db79c12c391b798a402d685fa6adb1f3ac9"
+    sha256 "5505b9e4ff2d0a19062b487595bcb3b9a58e8e2dbc41338248fb2d236d028854"
     license "Apache-2.0"
     head "https://github.com/suhailskhan/lima.git", branch: "master"
   
